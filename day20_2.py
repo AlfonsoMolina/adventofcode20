@@ -148,8 +148,8 @@ for i, t in enumerate(tiles_ids):
 
 # Lets put the first corner on position 0, 0:
 sorted_image[0][0] = corner
-sorted_image[0][1] = neighboors[corner][0]
-sorted_image[1][0] = neighboors[corner][1]
+sorted_image[0][1] = neighboors[corner][1]
+sorted_image[1][0] = neighboors[corner][0]
 
 # Put each shard on the right place
 for y in range(side):
@@ -318,5 +318,3 @@ for y in range(len(final_map)):
     print(final_map[y])
 
 print(monster_count, total)
-
-# It doesn't work. I give up.
